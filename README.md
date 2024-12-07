@@ -1,3 +1,3 @@
 USERNAME: Homework0706
 
-PAROL: homework0706
+PASSWORD: homework0706
