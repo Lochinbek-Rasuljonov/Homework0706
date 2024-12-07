@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
+
+# Python virtual environments
+*.pyenv/
+*.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Test and coverage
+.coverage
+*.cover
+*.tox/
+*.nox/
+*.coverage.*
+*.hypothesis/
+.pytest_cache/
+
+# Distribution and packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.tar.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+#  Typically these folders are created by pyinstaller during the creation of executables
+#  and should be ignored in a git repo.
+dist/
+build/
+
+# Other files to ignore
+*.log
+*.bak
+*.swp

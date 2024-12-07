@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Welcome to the Autosalon</h1>
+
+<h2>Brands</h2>
+<ul>
+    {% for brand in brands %}
+        <li><a href="{% url 'brand_cars' brand.id %}">{{ brand.name }}</a></li>
+    {% endfor %}
+</ul>
+
+<h2>Cars</h2>
+<ul>
+    {% for car in cars %}
+        <li><a href="{% url 'car_detail' car.id %}">{{ car.name }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}
